@@ -36,7 +36,7 @@ export default function Vaccinations() {
           <div className="bg-surface-container-lowest rounded-2xl p-6 shadow-sm border border-outline-variant/15 flex items-center justify-between">
             <div className="flex items-center gap-4">
               <div className="relative">
-                <img src="https://i.pravatar.cc/150?img=5" alt="Rokeya Sultana" className="w-12 h-12 rounded-full object-cover" />
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYYOJd5WAKSwNEyBJ5nXQ67f2Os_4eQd-m9cTIF6l3ph6RL5U0KVqqCbKxlDmiOG5aIz8wewzSV4TRsJE8b5TLXewbq4cCtlUk52yKWBltEbgf5-iI2mB8jjTFDPLA8q0N8ofrQ2mT1JJavHV8GdhDSIoBnGanuJH5S8g85s-PG2eTaaX7Shmc0-DQFTKK1HC-XohFtIiA3ocGZnaa6HuLrMmNajVh73wu2ItaQiY7ZrJ_9jKxcuF-Jie29fFOhXOkfqNBqHBFGuZ6" alt="Rokeya Sultana" className="w-12 h-12 rounded-full object-cover" />
                 <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-error rounded-full border-2 border-white flex items-center justify-center">
                   <span className="material-symbols-outlined text-white text-[12px] font-bold">priority_high</span>
                 </div>
@@ -63,7 +63,7 @@ export default function Vaccinations() {
           {/* Card 2: Due Today */}
           <div className="bg-surface-container-lowest rounded-2xl p-6 shadow-sm border border-outline-variant/15 flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <img src="https://i.pravatar.cc/150?img=9" alt="Bilkis Khanam" className="w-12 h-12 rounded-full object-cover" />
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZP_UVm9rDci8aZIVkCNxU3TYXPv5LXmPtKV7sUKbivW47aWw3ILuhIWCdlnaDl_qF6P42yPrH7CXbu4QhVJs9U37nLiuIf9b3CsmUS_kLJrjtHMUzrSrx5jiY-FolHNoXG2Dw3Y9R6GXxHAx1GfqA0yGAjexLsjaPOY-pmWUYd5Ao0QhyE5wIEs0nOnxfBqe1lkSVYLkFia6nVUk7ndFmxn-edbdyNBV3LNaWbf-84CrtJOLGzvPEPjESdzLTfhpuDpKxT3N3IcW1" alt="Bilkis Khanam" className="w-12 h-12 rounded-full object-cover" />
               <div>
                 <div className="flex items-center gap-2 mb-1">
                   <h3 className="text-base font-bold text-on-surface">Bilkis Khanam</h3>
@@ -99,20 +99,6 @@ export default function Vaccinations() {
             <div className="w-full h-2 bg-surface-container-high rounded-full mt-3 overflow-hidden">
               <div className="h-full bg-error rounded-full" style={{ width: '15%' }}></div>
             </div>
-          </div>
-
-          {/* Today's Clinic Completion */}
-          <div className="bg-primary rounded-2xl p-6 shadow-sm text-white">
-            <h3 className="text-[10px] font-bold text-white/80 uppercase tracking-widest mb-4">Today's Clinic Completion</h3>
-            <div className="mb-4">
-              <span className="text-5xl font-bold">64%</span>
-            </div>
-            <p className="text-sm text-white/90 mb-6 leading-relaxed">
-              9 out of 14 scheduled doses successfully administered.
-            </p>
-            <button className="text-sm font-bold text-white flex items-center gap-1 hover:underline">
-              View performance <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
-            </button>
           </div>
 
           {/* EPI Guidelines */}
